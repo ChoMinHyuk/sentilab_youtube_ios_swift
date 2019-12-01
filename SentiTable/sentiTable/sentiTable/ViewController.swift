@@ -18,10 +18,60 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var TableViewMain: UITableView!
     
+    var newsData :Array<Dictionary<String, Any>>?
+    //1. http 통신 방법 - urlsession
+    //2. JSON 데이터 형태 {"돈":"1000"} - 뉴스
+    //3. 테이블뷰의 데이터 매칭!! <- 통보! 그리기!
+    //!!!! background : network / ui : Main
+//    {
+//        [
+//            {"돈":"1000"},
+//            {"돈":"1000"},
+//            {"돈":"1000"}
+//        ]
+//
+//    }
+    
+    //500회
+    func getNews() {
+        let task = URLSession.shared.dataTask(with: URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=8aba2534c5524a73ac3a14c8de043ed5")!) { (data, response, error) in
+            
+            if let dataJson = data {
+                 
+                //json parsing
+                do {
+                    let json = try JSONSerialization.jsonObject(with: dataJson, options: []) as! Dictionary<String, Any>
+             
+                    //Dictionary
+                    let articles = json["articles"] as! Array<Dictionary<String, Any>>
+                    self.newsData = articles
+                    
+                    DispatchQueue.main.async {
+                        self.TableViewMain.reloadData() //Main
+                    }
+                   
+
+                }
+                catch {}
+            }
+           
+        }
+        
+        task.resume()
+    }
+    
+    
     //셀을 반복할 횟수
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //몇개? 숫자
-        return 100
+        
+        if let news = newsData {
+            return news.count
+        }
+        else {
+             return 0
+        }
+       
     }
     
     //위의 numberOfRowsInSection 숫자 만큼 반복
@@ -37,7 +87,24 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //as? : 이거 맞아?
         //as! : 이거 맞아!
         let cell = TableViewMain.dequeueReusableCell(withIdentifier: "Type1", for: indexPath) as! Type1
-        cell.LabelText.text = "\(indexPath.row)"
+        
+        
+        let idx = indexPath.row
+        print("idx :: \(idx)")
+        if let news = newsData {
+            
+            let row = news[idx]
+            print("row :: \(row)")
+            if let r = row as? Dictionary<String, Any> {
+                print("TITLE :: \(r)")
+                if let title = r["title"] as? String {
+                    cell.LabelText.text = title
+                }
+                
+            }
+            
+        }
+        
         
         return cell
         
@@ -55,6 +122,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         TableViewMain.delegate = self
         TableViewMain.dataSource = self
+        
+        getNews()
     }
 
     
