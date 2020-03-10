@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23425ed6-fd17-4e8d-88bd-6afd83af84d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/diary.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/diary.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WytQs7vZa7odDmnUEtfjl1zJmg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23425ed6-fd17-4e8d-88bd-6afd83af84d5" name="Default Changelist" comment="" />
+      <created>1580133648074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580133648074</updated>
+      <workItem from="1580133649419" duration="2038000" />
+      <workItem from="1580412188640" duration="1496000" />
+      <workItem from="1582872181961" duration="3671000" />
+      <workItem from="1583231693378" duration="531000" />
+      <workItem from="1583324012161" duration="41000" />
+      <workItem from="1583324067202" duration="14938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="775" y="279" key="#Notifications" timestamp="1583324309386">
+      <screen x="0" y="23" width="2048" height="1083" />
+    </state>
+    <state x="775" y="279" key="#Notifications/0.23.2048.1083@0.23.2048.1083" timestamp="1583324309386" />
+    <state x="624" y="212" key="#Plugins" timestamp="1583324052963">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state x="624" y="212" key="#Plugins/0.23.2048.1082@0.23.2048.1082" timestamp="1583324052963" />
+    <state x="487" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582876376209">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state x="487" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2048.1082@0.23.2048.1082" timestamp="1582876376209" />
+    <state x="572" y="157" key="CommitChangelistDialog2" timestamp="1583835323946">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state x="572" y="157" key="CommitChangelistDialog2/0.23.2048.1082@0.23.2048.1082" timestamp="1583835323946" />
+    <state width="2006" height="236" key="GridCell.Tab.0.bottom" timestamp="1582960994774">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state width="2006" height="236" key="GridCell.Tab.0.bottom/0.23.2048.1082@0.23.2048.1082" timestamp="1582960994774" />
+    <state width="2006" height="236" key="GridCell.Tab.0.center" timestamp="1582960994773">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state width="2006" height="236" key="GridCell.Tab.0.center/0.23.2048.1082@0.23.2048.1082" timestamp="1582960994773" />
+    <state width="2006" height="236" key="GridCell.Tab.0.left" timestamp="1582960994773">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state width="2006" height="236" key="GridCell.Tab.0.left/0.23.2048.1082@0.23.2048.1082" timestamp="1582960994773" />
+    <state width="2006" height="236" key="GridCell.Tab.0.right" timestamp="1582960994773">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state width="2006" height="236" key="GridCell.Tab.0.right/0.23.2048.1082@0.23.2048.1082" timestamp="1582960994773" />
+    <state x="724" y="315" width="600" height="498" key="find.popup" timestamp="1582872966711">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state x="724" y="315" width="600" height="498" key="find.popup/0.23.2048.1082@0.23.2048.1082" timestamp="1582872966711" />
+    <state x="402" y="186" width="1291" height="755" key="new project wizard" timestamp="1583836994137">
+      <screen x="0" y="23" width="2048" height="1082" />
+    </state>
+    <state x="402" y="186" width="1291" height="755" key="new project wizard/0.23.2048.1082@0.23.2048.1082" timestamp="1583836994137" />
+    <state x="689" y="264" width="670" height="676" key="search.everywhere.popup" timestamp="1583404506238">
+      <screen x="0" y="23" width="2048" height="1083" />
+    </state>
+    <state x="689" y="264" width="670" height="676" key="search.everywhere.popup/0.23.2048.1083@0.23.2048.1083" timestamp="1583404506238" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/diary.js</url>
+          <line>84</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
